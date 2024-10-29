@@ -13,7 +13,7 @@ SELECT * FROM `sv_analytics.qa_contactscampaign` WHERE campaignname IS NULL AND 
 UPDATE `sv_analytics.qa_contactscampaign` 
 SET campaignname= '2024 Voter Mobilization' 
 WHERE batch_id IN ('5e0bf8f6-0cf7-422b-bbf3-93669ddf5811', '5e0bf8f6-0cf7-422b-bbf3-93669ddf5811')
-  ; 
+; 
 
 
 
